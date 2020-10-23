@@ -1,10 +1,14 @@
 package vendortest
 
 type A interface {
-        X() string
+        X(c *C) string
 }
 
 type B struct {
+}
+
+type C struct {
+
 }
 
 func (b *B) X() string {
