@@ -11,7 +11,7 @@ type C struct {
 
 }
 
-func (b *B) X() string {
+func (b *B) X(c *C) string {
         return "vendortest"
 }
 
