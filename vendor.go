@@ -10,3 +10,7 @@ type B struct {
 func (b *B) X() string {
         return "vendortest"
 }
+
+func New() *B {
+    return &B{}
+}
